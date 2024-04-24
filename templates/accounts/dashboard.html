@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- ========================= SECTION CONTENT ========================= -->
+<section class="section-conten padding-y bg">
+    {% include 'includes/alerts.html' %}
+    <div class="container">
+        <div class="row">
+            <aside class="col-md-3 mx-auto">
+                <!-- SIDEBAR -->
+                <ul class="list-group">
+                    <br>
+                    <br>
+                    <br>
+                    <a class="list-group-item" href="{% url 'my_orders' %}"> My orders </a>
+                    <a class="list-group-item" href="{% url 'change_password' %}"> Change Password </a>
+                </ul>
+                <br>
+                <a class="btn btn-light btn-block" href="{% url 'logout' %}"> <i class="fa fa-power-off"></i> <span class="text">Log out</span> </a> 
+                <!-- SIDEBAR END -->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </aside>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+
+{% endblock %}
